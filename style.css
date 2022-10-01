@@ -37,6 +37,12 @@ body{
     border-top: 0.4px solid #fff2e7;
 }
 
+.conteudo-principal-imagem{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
 .conteudo-principal{
     display: flex;
     flex-direction: row;
@@ -44,16 +50,36 @@ body{
     justify-content: space-around;
 }
 
+
+
 .conteudo-principal-escrito{
     display: flex;
     flex-direction: column;
-}
-
-.conteudo-principal-escrito{
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 54px;
     color: #fff2e7;
+    text-align: left;
+}
+
+.botao{
+    
+}
+
+.conteudo-segundario1{
+    
+   padding:25px;
+    text-align: right;
+    
+
+}
+.conteudo-segundario-titulo1{
+   display: inline;
+   color: #fff2e7;
+
+}
+.conteudo-segundario-paragrafo1{
+    font-size: 25px;
 }
 
 
