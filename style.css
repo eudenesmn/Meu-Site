@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2? family= Righteous & family= Roboto & family= Sarala:wght@700 & family= Source+Sans+Pro & display=swap');
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg,#2f2325 16.62%,#8e5d52 85.61%);
+    
+}
+
+.cabecalho{
+    display: flex ;
+    flex-direction: row;
+    align-items: center;
+   justify-content: space-around;
+   padding: 24px;
+   
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+    
+}
+.cabecalho-menu-item{
+    font-family: 'sarala', sans-serif;
+    color: #fff2e7;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #fff2e7;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-principal-escrito{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 54px;
+    color: #fff2e7;
+}
+
+
