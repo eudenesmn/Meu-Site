@@ -35,14 +35,21 @@ body{
    display: flex;
    flex-direction: row;
    align-items: center;
-   gap: 32px;
+   gap: 15px;
     border-top: 0.4px solid #fff2e7;
 }
-    h1{
+    h2{
        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
        color: #fff2e7;
        text-align: center;
+       font-size: 1em;
     }
 
+    .fim{
+        margin-top: 90px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff2e7;
+    }
 
 
