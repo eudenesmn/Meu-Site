@@ -11,6 +11,7 @@ body{
     font-size: 100%;
     background: linear-gradient(68.15deg,#2f2325 16.62%,#8e5d52 85.61%);
     
+    
 }
 
 .cabecalho{
@@ -22,64 +23,26 @@ body{
    
 }
 
+
 .cabecalho-menu{
     display: flex;
     gap: 32px;
     
 }
-.cabecalho-menu-item{
-    font-family: 'sarala', sans-serif;
-    color: #fff2e7;
-}
+
 
 .conteudo{
-    margin-bottom: 48px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 32px;
     border-top: 0.4px solid #fff2e7;
 }
+    h1{
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       color: #fff2e7;
+       text-align: center;
+    }
 
-.conteudo-principal-imagem{
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-}
-
-.conteudo-principal{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-
-
-
-.conteudo-principal-escrito{
-    display: flex;
-    flex-direction: column;
-    font-family: 'Righteous', cursive;
-    font-weight: 400;
-    font-size: 54px;
-    color: #fff2e7;
-    text-align: left;
-}
-
-.botao{
-    
-}
-
-.conteudo-segundario1{
-    
-   padding:25px;
-    text-align: right;
-    
-
-}
-.conteudo-segundario-titulo1{
-   display: inline;
-   color: #fff2e7;
-
-}
-.conteudo-segundario-paragrafo1{
-    font-size: 25px;
-}
 
 
