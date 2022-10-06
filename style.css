@@ -12,3 +12,62 @@ body {
 
 }
 
+.conteudo{
+    border-top: 0.4px solid ;
+    color: azure;
+}
+
+.nav-menu {
+    
+    margin-right: 6em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    align-items:center ;
+   justify-content: flex-end;
+   gap: 10px;
+  
+}
+#eu{
+    padding: 15px;
+    margin-right: 36em;
+
+}
+
+
+
+.div-imagem {
+   padding: 1em;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    align-items: center;
+   justify-content: space-around;
+  
+  
+  
+}
+
+.foto{
+    
+    padding: 1em;
+   border-radius: 10px;
+
+}
+.foto-segundaria{
+    border-radius: 10px;
+    
+}
+
+
+
+.fim {
+  
+    color: azure;
+    margin: 2.8em;
+    padding-top: 6em;
+    text-align: center;
+    color: azure;
+}
